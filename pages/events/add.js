@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import Meta from "../../components/Meta";
 
 const AddEventPage = () => {
   return (
-    <div>AddEventPage</div>
-  )
-}
+    <>
+      <Meta title='Add New Event' />
+      <div>AddEventPage</div>
+    </>
+  );
+};
 
-export default AddEventPage
+export default AddEventPage;
